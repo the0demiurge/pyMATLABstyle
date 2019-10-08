@@ -2,4 +2,4 @@
 python setup.py sdist bdist_wheel
 twine upload dist/*
 
-rm -r build/ dist/ MATLAB.egg-info/
+rm -r build/ dist/ pyMATLABstyle.egg-info/
