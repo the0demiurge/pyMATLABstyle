@@ -9,7 +9,7 @@ Create matrix, call function in MATLAB style
 ## Import
 
 ```python
-from pyMATLABstyle import *
+from MATLAB import *
 ```
 
 ## MATLAB style numpy

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from setuptools import setup
+import setuptools
 
 requirements = list()
 with open('requirements.txt') as f:
@@ -9,9 +9,9 @@ with open('requirements.txt') as f:
 
 readme = '\n'.join(open('README.md').readlines())
 
-setup(
+setuptools.setup(
     name='pyMATLABstyle',
-    version='1.0.0',
+    version='1.0.1',
 
     # Project description
     description='MATLAB style of creating numpy/sympy matrices, and a few MATLAB style functions',
@@ -38,4 +38,5 @@ setup(
         "Operating System :: POSIX",
         "Operating System :: Unix",
     ],
+    packages=setuptools.find_packages(),
 )
