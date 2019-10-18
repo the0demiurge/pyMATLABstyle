@@ -11,7 +11,7 @@ readme = '\n'.join(open('README.md').readlines())
 
 setuptools.setup(
     name='pyMATLABstyle',
-    version='1.1.0',
+    version='1.1.1',
 
     # Project description
     description='MATLAB style of creating numpy/sympy matrices, and a few MATLAB style functions',
